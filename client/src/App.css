@@ -1,0 +1,167 @@
+.colorOne{
+  background-color: #4DB768 ;
+  color: white;
+}
+.colorTwo{
+  background-color: #5A39DD ;
+  color: white;
+}
+.colorThree{
+  background-color: #F85938 ;
+  color: white;
+}
+.bodi{
+  min-height: 80vh;
+}
+.text{
+  text-align: justify;
+}
+.c-item{
+  height:50dvh;
+}
+.c-item:hover{
+  height: inherit;
+}
+.c-img{
+  height: 50dvh;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+.c-img:hover{
+  filter: brightness(1);
+  height: inherit;
+}
+.icon {
+  width: 8rem;
+  height: 8rem;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #5A39DD;
+}
+.sec{
+  padding: 3rem 0 3rem 0;
+}
+*{
+  font-family: Raleway;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.lnk{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.lnk:hover{
+  text-decoration: none;
+  color: #DD5A39;
+}
+
+.error{
+  text-align: center;
+  height: 100px;
+}
+.text-div{
+  padding: 50px;
+}
+.jrsy{
+  height: 275px;
+  width: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ hr{
+  border-width: 3px;
+ }
+
+footer {
+  padding: 1rem 0 3rem 0;
+  
+  h3 {
+  
+    margin-bottom: 2.4rem;
+  }
+  .footer-social--icons {
+    display: flex;
+    gap: 2rem;
+
+    div {
+      padding: 1rem;
+      border-radius: 50%;
+   
+
+      .icons {
+   
+        font-size: 2.4rem;
+        position: relative;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer-bottom--section {
+  padding-top: 5rem;
+
+  hr {
+    margin-bottom: 10px;
+   
+    height: 0.5px;
+  }
+}
+
+@media (max-width: 960px) {
+  .contact-short {
+    max-width: 80vw;
+    margin: 4.8rem auto;
+    transform: translateY(0%);
+    text-align: center;
+
+    .grid div:last-child {
+      justify-self: center;
+    }
+  }
+
+  footer {
+    padding-top: 5rem 0;
+  }
+
+  .footer-bottom--section {
+    padding-top: 5rem;
+  }
+}
